@@ -1,0 +1,36 @@
+stays: 2,095,525
+mean_los: 5.835
+median_los: 3.000
+p90_los: 13.000
+long_stay_rate: 0.202
+long_stay_share_of_bed_days: 0.596
+
+Severity:
+  1: mean 2.91, long 5.2%, n 622,977
+  2: mean 4.84, long 14.7%, n 754,899
+  3: mean 7.37, long 30.8%, n 502,839
+  4: mean 14.25, long 58.3%, n 214,810
+
+Age:
+  0 to 17: mean 3.98, long 8.3%
+  18 to 29: mean 4.69, long 13.2%
+  30 to 49: mean 5.05, long 14.6%
+  50 to 69: mean 6.67, long 24.5%
+  70 or Older: mean 6.79, long 27.6%
+
+Admission type:
+  Emergency: n 1,390,254, mean 6.37
+  Elective: n 355,006, mean 4.65
+  Newborn: n 198,404, mean 3.49
+  Urgent: n 144,562, mean 6.74
+  Trauma: n 7,299, mean 7.33
+
+Top DRG by bed days:
+  SEPTICEMIA AND DISSEMINATED INFECTIONS: 1,018,600 days, mean 8.3
+  SCHIZOPHRENIA: 538,954 days, mean 18.8
+  MAJOR RESPIRATORY INFECTIONS AND INFLAMMATIONS: 408,934 days, mean 6.7
+  HEART FAILURE: 360,789 days, mean 6.3
+  NEONATE BIRTH WEIGHT > 2499 GRAMS, NORMAL NEWBORN : 355,948 days, mean 2.1
+
+Hospitals with >=2000 stays: 154; O/E p10 0.83, p90 1.18
+Hospitals with O/E > 1.10: 28; excess bed days at those vs expected: 600,383

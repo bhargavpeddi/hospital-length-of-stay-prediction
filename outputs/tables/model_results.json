@@ -1,0 +1,39 @@
+{
+  "rows_train": 1508778,
+  "rows_valid": 167642,
+  "rows_test": 419105,
+  "reg_baseline_global_mean": {
+    "MAE_days": 4.709448172249987,
+    "RMSE_days": 8.88354880710023,
+    "R2": -6.001004360101092e-08
+  },
+  "reg_baseline_drg_x_severity": {
+    "MAE_days": 3.3270425961601298,
+    "RMSE_days": 7.040389906752246,
+    "R2": 0.3719120464960932
+  },
+  "reg_xgboost": {
+    "MAE_days": 2.9807995143592447,
+    "RMSE_days": 6.755354918849134,
+    "R2": 0.42173969200698147,
+    "MAE_days_median_pred": 2.893214850582673,
+    "best_iteration": 377,
+    "train_seconds": 78
+  },
+  "cls_base_rate": 0.20223094451271162,
+  "cls_baseline_drg_x_severity": {
+    "ROC_AUC": 0.8668017857601479,
+    "PR_AUC": 0.6312499670951651,
+    "recall_top20pct": 0.5856222568313748,
+    "precision_top20pct": 0.5921547106333735
+  },
+  "cls_xgboost": {
+    "ROC_AUC": 0.8933056732719011,
+    "PR_AUC": 0.6966128962011446,
+    "recall_top20pct": 0.627731370050498,
+    "precision_top20pct": 0.6347335393278534,
+    "best_iteration": 175,
+    "train_seconds": 45,
+    "share_of_bed_days_in_top20pct": 0.49085012456194793
+  }
+}

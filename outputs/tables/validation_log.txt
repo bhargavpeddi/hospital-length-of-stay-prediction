@@ -1,0 +1,13 @@
+Raw rows loaded: 2,103,433
+Rows failing at least one check: 7,908 (0.38%)
+Clean rows kept: 2,095,525
+Stays capped at '120 +' days: 2,087
+  missing_or_bad_length_of_stay: 0
+  missing_age_group: 0
+  unknown_type_of_admission: 1,768
+  missing_diagnosis_or_drg: 0
+  missing_severity: 636
+  missing_facility: 5,390
+  unknown_gender: 259
+  bad_charges: 1
+Done in 29s

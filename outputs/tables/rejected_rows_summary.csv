@@ -1,0 +1,9 @@
+check,rows_failing
+missing_or_bad_length_of_stay,0
+missing_age_group,0
+unknown_type_of_admission,1768
+missing_diagnosis_or_drg,0
+missing_severity,636
+missing_facility,5390
+unknown_gender,259
+bad_charges,1

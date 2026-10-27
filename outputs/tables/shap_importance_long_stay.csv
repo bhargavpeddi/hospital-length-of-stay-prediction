@@ -1,0 +1,16 @@
+feature,mean_abs_shap
+apr_drg_code,1.0840417
+apr_severity_of_illness_code,0.79386294
+ccsr_diagnosis_code,0.36041638
+permanent_facility_id,0.3153461
+apr_risk_of_mortality,0.2835281
+age_group,0.11008771
+payment_typology_1,0.08925733
+type_of_admission,0.07555908
+race,0.03597208
+emergency_department_indicator,0.035037097
+apr_medical_surgical,0.02958179
+apr_mdc_code,0.021645509
+gender,0.01544542
+ethnicity,0.007444371
+hospital_service_area,0.0062092408
