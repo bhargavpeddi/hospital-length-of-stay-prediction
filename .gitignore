@@ -1,0 +1,6 @@
+data/
+outputs/models/
+outputs/model_run.log
+__pycache__/
+*.pyc
+.DS_Store
